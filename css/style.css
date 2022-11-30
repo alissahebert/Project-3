@@ -1,0 +1,73 @@
+.grid {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+
+}
+
+.SEDANS {
+  background-color: hsl(31, 77%, 52%);
+  height: 400px;
+  width: 250px;
+  border-top-left-radius: .4em;
+  border-bottom-left-radius: .4em;
+}
+
+.SUV {
+  background-color: hsl(184, 100%, 22%);
+  height: 400px;
+  width: 250px;
+}
+
+.LUXURY {
+  background-color: hsl(179, 100%, 13%);
+  height: 400px;
+  width: 250px;
+  border-top-right-radius: .4em;
+  border-bottom-right-radius: .4em;
+}
+
+p {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 13px;
+  font-weight: 300px;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.5;
+  margin: 10px 30px;
+}
+
+h1 {
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 100;
+  color: hsl(0, 0%, 95%);
+  margin-left: 30px;
+}
+
+button {
+  padding: 14px 37px;
+  border-radius: 2em;
+  border: none;
+  margin-left: 30px;
+  margin-top: 60px;
+  cursor: pointer;
+  font-family: 'Lexend Deca', sans-serif;
+
+}
+
+.button-SUV {
+  color: hsl(184, 100%, 22%);
+
+}
+
+.button-sedan {
+  color: hsl(31, 77%, 52%);
+}
+
+.button-luxury {
+  color: hsl(179, 100%, 13%);
+}
+
+img {
+margin-left: 30px;
+margin-top: 30px;
+}
